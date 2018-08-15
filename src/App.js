@@ -4,14 +4,13 @@ import TodoHeader from './component/todoheader.js';
 import TodoForm from './component/todoform.js';
 import TodoList from './component/todolist.js';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel,faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 
-library.add(faStroopwafel,faCheck);
+library.add(faCheck);
 
 var todoItems = [];
 todoItems.push({index: 1, value: "learn react", done: false});
